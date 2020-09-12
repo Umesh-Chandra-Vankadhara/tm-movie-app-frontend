@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SignupComponent } from './auth/signup/signup.component';
+import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
+import { CustomerComponent } from './customer/customer/customer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SigninComponent
+    SigninComponent,
+    SignupComponent,
+    NavBarComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,

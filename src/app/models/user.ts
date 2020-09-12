@@ -1,4 +1,5 @@
 export class User {
+    customerId:number;
     firstname:string;
     lastName:string;
     username:string;
@@ -6,5 +7,6 @@ export class User {
     dateOfBirth:Date;
     phoneNumbers:[];
     userTypeId : number;
+    jwtToken:string;
     bookingIds: []
 }
